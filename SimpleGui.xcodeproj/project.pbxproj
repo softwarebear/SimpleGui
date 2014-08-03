@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79EC3DCF198E33CB009D9219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EC3DCE198E33CB009D9219 /* Cocoa.framework */; };
+		79EC3DD9198E33CB009D9219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79EC3DD7198E33CB009D9219 /* InfoPlist.strings */; };
+		79EC3DDB198E33CB009D9219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3DDA198E33CB009D9219 /* main.m */; };
+		79EC3DDF198E33CB009D9219 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79EC3DDD198E33CB009D9219 /* Credits.rtf */; };
+		79EC3DE2198E33CB009D9219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3DE1198E33CB009D9219 /* AppDelegate.m */; };
+		79EC3DE5198E33CB009D9219 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EC3DE3198E33CB009D9219 /* MainMenu.xib */; };
+		79EC3DE7198E33CB009D9219 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EC3DE6198E33CB009D9219 /* Images.xcassets */; };
+		79EC3DEE198E33CB009D9219 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EC3DED198E33CB009D9219 /* XCTest.framework */; };
+		79EC3DEF198E33CB009D9219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EC3DCE198E33CB009D9219 /* Cocoa.framework */; };
+		79EC3DF7198E33CB009D9219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79EC3DF5198E33CB009D9219 /* InfoPlist.strings */; };
+		79EC3DF9198E33CB009D9219 /* SimpleGuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3DF8198E33CB009D9219 /* SimpleGuiTests.m */; };
+		79EC3E04198E3E79009D9219 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3E03198E3E79009D9219 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79EC3DF0198E33CB009D9219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EC3DC3198E33CB009D9219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EC3DCA198E33CB009D9219;
+			remoteInfo = SimpleGui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79EC3DCB198E33CB009D9219 /* SimpleGui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EC3DCE198E33CB009D9219 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79EC3DD1198E33CB009D9219 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79EC3DD2198E33CB009D9219 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79EC3DD3198E33CB009D9219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79EC3DD6198E33CB009D9219 /* SimpleGui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGui-Info.plist"; sourceTree = "<group>"; };
+		79EC3DD8198E33CB009D9219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79EC3DDA198E33CB009D9219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79EC3DDC198E33CB009D9219 /* SimpleGui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleGui-Prefix.pch"; sourceTree = "<group>"; };
+		79EC3DDE198E33CB009D9219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		79EC3DE0198E33CB009D9219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79EC3DE1198E33CB009D9219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79EC3DE4198E33CB009D9219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79EC3DE6198E33CB009D9219 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79EC3DEC198E33CB009D9219 /* SimpleGuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EC3DED198E33CB009D9219 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79EC3DF4198E33CB009D9219 /* SimpleGuiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGuiTests-Info.plist"; sourceTree = "<group>"; };
+		79EC3DF6198E33CB009D9219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79EC3DF8198E33CB009D9219 /* SimpleGuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGuiTests.m; sourceTree = "<group>"; };
+		79EC3E02198E3E79009D9219 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		79EC3E03198E3E79009D9219 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EC3DC8198E33CB009D9219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DCF198E33CB009D9219 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EC3DE9198E33CB009D9219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DEF198E33CB009D9219 /* Cocoa.framework in Frameworks */,
+				79EC3DEE198E33CB009D9219 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EC3DC2198E33CB009D9219 = {
+			isa = PBXGroup;
+			children = (
+				79EC3DD4198E33CB009D9219 /* SimpleGui */,
+				79EC3DF2198E33CB009D9219 /* SimpleGuiTests */,
+				79EC3DCD198E33CB009D9219 /* Frameworks */,
+				79EC3DCC198E33CB009D9219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EC3DCC198E33CB009D9219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DCB198E33CB009D9219 /* SimpleGui.app */,
+				79EC3DEC198E33CB009D9219 /* SimpleGuiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EC3DCD198E33CB009D9219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DCE198E33CB009D9219 /* Cocoa.framework */,
+				79EC3DED198E33CB009D9219 /* XCTest.framework */,
+				79EC3DD0198E33CB009D9219 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79EC3DD0198E33CB009D9219 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DD1198E33CB009D9219 /* AppKit.framework */,
+				79EC3DD2198E33CB009D9219 /* CoreData.framework */,
+				79EC3DD3198E33CB009D9219 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79EC3DD4198E33CB009D9219 /* SimpleGui */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DE0198E33CB009D9219 /* AppDelegate.h */,
+				79EC3DE1198E33CB009D9219 /* AppDelegate.m */,
+				79EC3E02198E3E79009D9219 /* AppController.h */,
+				79EC3E03198E3E79009D9219 /* AppController.m */,
+				79EC3DE3198E33CB009D9219 /* MainMenu.xib */,
+				79EC3DE6198E33CB009D9219 /* Images.xcassets */,
+				79EC3DD5198E33CB009D9219 /* Supporting Files */,
+			);
+			path = SimpleGui;
+			sourceTree = "<group>";
+		};
+		79EC3DD5198E33CB009D9219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DD6198E33CB009D9219 /* SimpleGui-Info.plist */,
+				79EC3DD7198E33CB009D9219 /* InfoPlist.strings */,
+				79EC3DDA198E33CB009D9219 /* main.m */,
+				79EC3DDC198E33CB009D9219 /* SimpleGui-Prefix.pch */,
+				79EC3DDD198E33CB009D9219 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79EC3DF2198E33CB009D9219 /* SimpleGuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DF8198E33CB009D9219 /* SimpleGuiTests.m */,
+				79EC3DF3198E33CB009D9219 /* Supporting Files */,
+			);
+			path = SimpleGuiTests;
+			sourceTree = "<group>";
+		};
+		79EC3DF3198E33CB009D9219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EC3DF4198E33CB009D9219 /* SimpleGuiTests-Info.plist */,
+				79EC3DF5198E33CB009D9219 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EC3DCA198E33CB009D9219 /* SimpleGui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EC3DFC198E33CB009D9219 /* Build configuration list for PBXNativeTarget "SimpleGui" */;
+			buildPhases = (
+				79EC3DC7198E33CB009D9219 /* Sources */,
+				79EC3DC8198E33CB009D9219 /* Frameworks */,
+				79EC3DC9198E33CB009D9219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGui;
+			productName = SimpleGui;
+			productReference = 79EC3DCB198E33CB009D9219 /* SimpleGui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79EC3DEB198E33CB009D9219 /* SimpleGuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EC3DFF198E33CB009D9219 /* Build configuration list for PBXNativeTarget "SimpleGuiTests" */;
+			buildPhases = (
+				79EC3DE8198E33CB009D9219 /* Sources */,
+				79EC3DE9198E33CB009D9219 /* Frameworks */,
+				79EC3DEA198E33CB009D9219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EC3DF1198E33CB009D9219 /* PBXTargetDependency */,
+			);
+			name = SimpleGuiTests;
+			productName = SimpleGuiTests;
+			productReference = 79EC3DEC198E33CB009D9219 /* SimpleGuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EC3DC3198E33CB009D9219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					79EC3DEB198E33CB009D9219 = {
+						TestTargetID = 79EC3DCA198E33CB009D9219;
+					};
+				};
+			};
+			buildConfigurationList = 79EC3DC6198E33CB009D9219 /* Build configuration list for PBXProject "SimpleGui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79EC3DC2198E33CB009D9219;
+			productRefGroup = 79EC3DCC198E33CB009D9219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EC3DCA198E33CB009D9219 /* SimpleGui */,
+				79EC3DEB198E33CB009D9219 /* SimpleGuiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EC3DC9198E33CB009D9219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DD9198E33CB009D9219 /* InfoPlist.strings in Resources */,
+				79EC3DE7198E33CB009D9219 /* Images.xcassets in Resources */,
+				79EC3DDF198E33CB009D9219 /* Credits.rtf in Resources */,
+				79EC3DE5198E33CB009D9219 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EC3DEA198E33CB009D9219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DF7198E33CB009D9219 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EC3DC7198E33CB009D9219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DE2198E33CB009D9219 /* AppDelegate.m in Sources */,
+				79EC3E04198E3E79009D9219 /* AppController.m in Sources */,
+				79EC3DDB198E33CB009D9219 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EC3DE8198E33CB009D9219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EC3DF9198E33CB009D9219 /* SimpleGuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79EC3DF1198E33CB009D9219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EC3DCA198E33CB009D9219 /* SimpleGui */;
+			targetProxy = 79EC3DF0198E33CB009D9219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79EC3DD7198E33CB009D9219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EC3DD8198E33CB009D9219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79EC3DDD198E33CB009D9219 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EC3DDE198E33CB009D9219 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		79EC3DE3198E33CB009D9219 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EC3DE4198E33CB009D9219 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		79EC3DF5198E33CB009D9219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EC3DF6198E33CB009D9219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79EC3DFA198E33CB009D9219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79EC3DFB198E33CB009D9219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79EC3DFD198E33CB009D9219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGui/SimpleGui-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGui/SimpleGui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79EC3DFE198E33CB009D9219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGui/SimpleGui-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGui/SimpleGui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79EC3E00198E33CB009D9219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleGui.app/Contents/MacOS/SimpleGui";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGui/SimpleGui-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleGuiTests/SimpleGuiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79EC3E01198E33CB009D9219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleGui.app/Contents/MacOS/SimpleGui";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGui/SimpleGui-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGuiTests/SimpleGuiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EC3DC6198E33CB009D9219 /* Build configuration list for PBXProject "SimpleGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EC3DFA198E33CB009D9219 /* Debug */,
+				79EC3DFB198E33CB009D9219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EC3DFC198E33CB009D9219 /* Build configuration list for PBXNativeTarget "SimpleGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EC3DFD198E33CB009D9219 /* Debug */,
+				79EC3DFE198E33CB009D9219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79EC3DFF198E33CB009D9219 /* Build configuration list for PBXNativeTarget "SimpleGuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EC3E00198E33CB009D9219 /* Debug */,
+				79EC3E01198E33CB009D9219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79EC3DC3198E33CB009D9219 /* Project object */;
+}
